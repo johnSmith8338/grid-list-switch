@@ -1,0 +1,77 @@
+@use 'sass:math';
+
+:host {
+  display: block;
+  padding-inline: 16px;
+}
+
+header {
+  padding-block: 8px;
+  padding-inline: 16px;
+  background-color: #b9b9b9;
+  border-radius: 8px;
+  max-inline-size: 480px;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  gap: 8px;
+  padding-block-start: 16px;
+
+  &.grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  }
+
+  &.list {
+    max-inline-size: 480px;
+    margin-inline: auto;
+
+    .card {
+      grid-auto-flow: column;
+      grid-auto-columns: 0.5fr 2.5fr;
+
+      .img-wrapper {
+        padding-block-start: math.div(3, 4)*100%;
+      }
+
+      .text-wrapper p {
+        display: -webkit-box;
+        line-clamp: 3;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+.card {
+  display: grid;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #b9b9b9;
+  overflow: clip;
+  box-sizing: border-box;
+}
+
+.img-wrapper {
+  position: relative;
+  padding-block-start: math.div(9, 16)*100%;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.text-wrapper {
+  display: grid;
+  gap: 8px;
+  padding-inline: 16px;
+  padding-block: 8px 16px;
+}

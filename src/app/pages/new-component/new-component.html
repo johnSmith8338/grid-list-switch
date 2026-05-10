@@ -1,0 +1,46 @@
+<app-content-switcher>
+    <div grid class="grid-view">
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="images/plant.jpg" alt="">
+            </div>
+            <div class="text-wrapper">
+                <h3>We can use one component here</h3>
+                <p>Some text</p>
+            </div>
+        </div>
+        @for (card of cards(); track card.id) {
+            <div class="card">
+                <div class="img-wrapper">
+                    <img [src]="card.img" [alt]="card.title">
+                </div>
+                <div class="text-wrapper">
+                    <h3>{{card.title}}&nbsp;#{{card.id}}-1</h3>
+                    <p>{{card.text}}</p>
+                </div>
+            </div>
+        }
+    </div>
+    <div list class="list-view">
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="images/plant.jpg" alt="">
+            </div>
+            <div class="text-wrapper">
+                <h3>And we can use another one component here</h3>
+                <p>Some another text</p>
+            </div>
+        </div>
+        @for (card of cards(); track card.id) {
+            <div class="card">
+                <div class="img-wrapper">
+                    <img [src]="card.img" [alt]="card.title">
+                </div>
+                <div class="text-wrapper">
+                    <h3>Another {{card.title}}&nbsp;#{{card.id}}-2</h3>
+                    <p>{{card.text}}</p>
+                </div>
+            </div>
+        }
+    </div>
+</app-content-switcher>

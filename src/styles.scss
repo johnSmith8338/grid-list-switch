@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+@layer reset {
+    html {
+        interpolate-size: allow-keywords;
+        font-family: system-ui;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        margin-block: 0;
+        line-height: 1;
+    }
+
+    img {
+        display: grid;
+        inline-size: 100%;
+        block-size: auto;
+    }
+
+    button {
+        border-color: transparent;
+        background-color: transparent;
+        outline-color: transparent;
+        padding: 8px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+}
+
+@layer main {
+    .placeholder {
+        position: absolute;
+        inset: 0;
+        background-color: #d6d6d6;
+    }
+}

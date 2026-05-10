@@ -1,0 +1,34 @@
+:host {
+    display: grid;
+    gap: 16px;
+}
+
+.page-select {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    block-size: 40px;
+    background-color: #333;
+    color: #fff;
+    padding-inline: 16px;
+
+    p {
+        color: #b9b9b9;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:not(.active) {
+            color: #b9b9b9;
+        }
+    }
+}
+
+main {
+    padding-block-end: 48px;
+}

@@ -1,0 +1,32 @@
+:host {
+  display: grid;
+  gap: 16px;
+}
+
+.view-select-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 8px;
+  padding-inline: 16px;
+  background-color: #b9b9b9;
+  border-radius: 8px;
+  inline-size: 100%;
+  max-inline-size: 480px;
+  margin-inline: auto;
+  box-sizing: border-box;
+
+  h2 {
+    text-transform: capitalize;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    font-weight: 700;
+  }
+}
+
+button {
+  border-radius: 4px;
+
+  &.active {
+    border: 1px solid #999;
+  }
+}

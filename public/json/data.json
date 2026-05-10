@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "images/plant.jpg",
+        "title": "Title",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A aperiam aut nobis reprehenderit modi doloribus error nam dicta, cum aliquam molestiae fugit nihil, in sequi praesentium? Alias fuga laborum excepturi consequatur vitae similique recusandae repudiandae inventore non eum, eius illo omnis totam in laboriosam modi officiis? Sequi expedita perferendis ullam."
+    },
+    {
+        "id": 2,
+        "img": "images/plant.jpg",
+        "title": "Title",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A aperiam aut nobis reprehenderit modi doloribus error nam dicta, cum aliquam molestiae fugit nihil, in sequi praesentium? Alias fuga laborum excepturi consequatur vitae similique recusandae repudiandae inventore non eum, eius illo omnis totam in laboriosam modi officiis? Sequi expedita perferendis ullam."
+    },
+    {
+        "id": 3,
+        "img": "images/plant.jpg",
+        "title": "Title",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A aperiam aut nobis reprehenderit modi doloribus error nam dicta, cum aliquam molestiae fugit nihil, in sequi praesentium? Alias fuga laborum excepturi consequatur vitae similique recusandae repudiandae inventore non eum, eius illo omnis totam in laboriosam modi officiis? Sequi expedita perferendis ullam."
+    },
+    {
+        "id": 4,
+        "img": "images/plant.jpg",
+        "title": "Title",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A aperiam aut nobis reprehenderit modi doloribus error nam dicta, cum aliquam molestiae fugit nihil, in sequi praesentium? Alias fuga laborum excepturi consequatur vitae similique recusandae repudiandae inventore non eum, eius illo omnis totam in laboriosam modi officiis? Sequi expedita perferendis ullam."
+    },
+    {
+        "id": 5,
+        "img": "images/plant.jpg",
+        "title": "Title",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A aperiam aut nobis reprehenderit modi doloribus error nam dicta, cum aliquam molestiae fugit nihil, in sequi praesentium? Alias fuga laborum excepturi consequatur vitae similique recusandae repudiandae inventore non eum, eius illo omnis totam in laboriosam modi officiis? Sequi expedita perferendis ullam."
+    },
+    {
+        "id": 6,
+        "img": "images/plant.jpg",
+        "title": "Title",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. A aperiam aut nobis reprehenderit modi doloribus error nam dicta, cum aliquam molestiae fugit nihil, in sequi praesentium? Alias fuga laborum excepturi consequatur vitae similique recusandae repudiandae inventore non eum, eius illo omnis totam in laboriosam modi officiis? Sequi expedita perferendis ullam."
+    }
+]

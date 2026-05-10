@@ -1,0 +1,9 @@
+<h2>select view</h2>
+<div class="view-select">
+    <button (click)="set('grid')" [class.active]="mode()==='grid'">
+        <app-grid-icon />
+    </button>
+    <button (click)="set('list')" [class.active]="mode()==='list'">
+        <app-list-icon />
+    </button>
+</div>

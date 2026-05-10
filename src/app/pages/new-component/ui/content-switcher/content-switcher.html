@@ -1,0 +1,18 @@
+<div class="view-select-wrapper">
+    <h2>select component</h2>
+    <div class="view-select">
+        <button (click)="set('grid')" [class.active]="mode()==='grid'">
+            <app-grid-icon />
+        </button>
+        <button (click)="set('list')" [class.active]="mode()==='list'">
+            <app-list-icon />
+        </button>
+    </div>
+</div>
+
+@if (mode()==='grid') {
+    <ng-content select="[grid]" />
+}
+@if (mode()==='list') {
+    <ng-content select="[list]" />
+}
